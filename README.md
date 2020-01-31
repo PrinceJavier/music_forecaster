@@ -15,7 +15,9 @@ The main sections are:
 * Find Notes In each Element Using Fourier Transform - using Fourier transformation, we find the frequencies associated with each beat
 * Convert into "Music Sheet" - we convert the wav form where the y-axis is amplitude and x-axis is time into a "music sheet" form where the y-axis is the frequency and the x-axis is time. In summary, the transformation is: 
 
-\begin{equation} wav form 1 -> fourier transform -> music sheet -> wav form 2 \end{equation}
+\begin{equation}
+wav form 1 -> fourier transform -> music sheet -> wav form 2
+\end{equation}
 
 As a check, wav form 2 must be able to recreate wav form 1. In our example, wav form 1 is `canon.wav` and wav form 2 is `Sine.wav`
 
