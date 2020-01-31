@@ -1,6 +1,6 @@
 # Music Forecaster
 
-This notebook is made to introduce time series analysis in a fun way! We train an AI to make its own music based on a music file.
+This notebook is made to introduce time series analysis in a fun way! We train an AI to make its own music based on a music file. This was originally presented in a brownbag session with The Collective, a data science group in the Philippines.
 
 This notebook requires
 * tensorflow
@@ -15,7 +15,7 @@ The main sections are:
 * Find Notes In each Element Using Fourier Transform - using Fourier transformation, we find the frequencies associated with each beat
 * Convert into "Music Sheet" - we convert the wav form where the y-axis is amplitude and x-axis is time into a "music sheet" form where the y-axis is the frequency and the x-axis is time. In summary, the transformation is: 
 
-wav form 1 -> fourier transform -> music sheet -> wav form 2
+<img src='eqn.gif'/>
 
 As a check, wav form 2 must be able to recreate wav form 1. In our example, wav form 1 is `canon.wav` and wav form 2 is `Sine.wav`
 
